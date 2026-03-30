@@ -1,0 +1,40 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" rx="40" fill="#0F172A"/>
+  <rect x="44" y="44" width="1112" height="542" rx="28" fill="#111827"/>
+  <rect x="84" y="96" width="312" height="312" rx="48" fill="#0B1220"/>
+  <path d="M148 184L220 248L152 314" stroke="#22D3EE" stroke-width="28" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M212 180H318" stroke="#F59E0B" stroke-width="24" stroke-linecap="round"/>
+  <path d="M244 248H334" stroke="#14B8A6" stroke-width="24" stroke-linecap="round"/>
+  <path d="M208 316H312" stroke="#E2E8F0" stroke-width="24" stroke-linecap="round"/>
+  <circle cx="142" cy="180" r="22" fill="#22D3EE"/>
+  <circle cx="220" cy="248" r="22" fill="#14B8A6"/>
+  <circle cx="142" cy="316" r="22" fill="#F59E0B"/>
+  <rect x="770" y="112" width="228" height="56" rx="18" fill="#0F766E"/>
+  <text x="806" y="149" fill="#F8FAFC" font-size="30" font-weight="700" font-family="Segoe UI, Noto Sans, Arial, sans-serif">
+    Release v0.1.0
+  </text>
+  <text x="458" y="214" fill="#F8FAFC" font-size="58" font-weight="700" font-family="Segoe UI, Noto Sans, Arial, sans-serif">
+    ComfyUI Workflow
+  </text>
+  <text x="458" y="282" fill="#F8FAFC" font-size="58" font-weight="700" font-family="Segoe UI, Noto Sans, Arial, sans-serif">
+    Node Dev
+  </text>
+  <text x="458" y="354" fill="#CBD5E1" font-size="28" font-weight="400" font-family="Segoe UI, Noto Sans, Arial, sans-serif">
+    Initial public release with bilingual docs, CI, GitHub Pages,
+  </text>
+  <text x="458" y="396" fill="#CBD5E1" font-size="28" font-weight="400" font-family="Segoe UI, Noto Sans, Arial, sans-serif">
+    uv-friendly validation, and a real ComfyUI case study.
+  </text>
+  <rect x="458" y="450" width="220" height="52" rx="16" fill="#1D4ED8"/>
+  <text x="488" y="484" fill="#F8FAFC" font-size="26" font-weight="600" font-family="Segoe UI, Noto Sans, Arial, sans-serif">
+    English + Japanese
+  </text>
+  <rect x="700" y="450" width="188" height="52" rx="16" fill="#0F766E"/>
+  <text x="752" y="484" fill="#F8FAFC" font-size="26" font-weight="600" font-family="Segoe UI, Noto Sans, Arial, sans-serif">
+    GitHub Pages
+  </text>
+  <rect x="910" y="450" width="118" height="52" rx="16" fill="#F59E0B"/>
+  <text x="943" y="484" fill="#0B1220" font-size="26" font-weight="700" font-family="Segoe UI, Noto Sans, Arial, sans-serif">
+    uv run
+  </text>
+</svg>

@@ -79,6 +79,7 @@ export default defineConfig({
           { text: "Workflow Design", link: "/guide/workflow-design" },
           { text: "App Mode", link: "/guide/app-mode-and-schema" },
           { text: "Validation", link: "/guide/validation-and-ops" },
+          { text: "Release v0.1.0", link: "/guide/release-notes-v0.1.0" },
           { text: "GitHub", link: repoUrl },
         ],
         sidebar: [
@@ -89,6 +90,13 @@ export default defineConfig({
               { text: "Workflow Design", link: "/guide/workflow-design" },
               { text: "App Mode and Schema", link: "/guide/app-mode-and-schema" },
               { text: "Validation and Operations", link: "/guide/validation-and-ops" },
+            ],
+          },
+          {
+            text: "Release",
+            items: [
+              { text: "Release Notes v0.1.0", link: "/guide/release-notes-v0.1.0" },
+              { text: "What's New in v0.1.0", link: "/guide/whats-new-v0.1.0" },
             ],
           },
         ],
@@ -110,6 +118,7 @@ export default defineConfig({
           { text: "Workflow 設計", link: "/ja/guide/workflow-design" },
           { text: "App Mode", link: "/ja/guide/app-mode-and-schema" },
           { text: "検証と運用", link: "/ja/guide/validation-and-ops" },
+          { text: "Release v0.1.0", link: "/ja/guide/release-notes-v0.1.0" },
           { text: "GitHub", link: repoUrl },
         ],
         sidebar: [
@@ -120,6 +129,13 @@ export default defineConfig({
               { text: "Workflow 設計", link: "/ja/guide/workflow-design" },
               { text: "App Mode と Schema", link: "/ja/guide/app-mode-and-schema" },
               { text: "検証と運用", link: "/ja/guide/validation-and-ops" },
+            ],
+          },
+          {
+            text: "リリース",
+            items: [
+              { text: "Release Notes v0.1.0", link: "/ja/guide/release-notes-v0.1.0" },
+              { text: "What's New in v0.1.0", link: "/ja/guide/whats-new-v0.1.0" },
             ],
           },
         ],

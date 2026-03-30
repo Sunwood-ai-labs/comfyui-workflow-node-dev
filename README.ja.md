@@ -42,6 +42,19 @@ nodes をまとめた公開リポジトリで、公開 docs は
 [sunwood-ai-labs.github.io/ComfyUI-LTXLongAudio](https://sunwood-ai-labs.github.io/ComfyUI-LTXLongAudio/)
 で確認できます。
 
+## 最新リリース
+
+`v0.1.0` はこのリポジトリの最初の公開リリースです。日英 docs、GitHub Pages 配信、
+workflow layout のスモークチェック、そして実例の ComfyUI-LTXLongAudio までを
+ひとまとまりの版として公開します。
+
+- リリースノート:
+  [v0.1.0 release notes](https://sunwood-ai-labs.github.io/comfyui-workflow-node-dev/guide/release-notes-v0.1.0)
+- 解説記事:
+  [What's new in v0.1.0](https://sunwood-ai-labs.github.io/comfyui-workflow-node-dev/guide/whats-new-v0.1.0)
+- GitHub Releases:
+  [Releases page](https://github.com/Sunwood-ai-labs/comfyui-workflow-node-dev/releases)
+
 ## クイックスタート
 
 1. まず対象レイヤーを切り分けます。

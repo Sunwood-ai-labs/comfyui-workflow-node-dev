@@ -43,6 +43,13 @@ ComfyUI リポジトリで、公開 docs は
 [sunwood-ai-labs.github.io/ComfyUI-LTXLongAudio](https://sunwood-ai-labs.github.io/ComfyUI-LTXLongAudio/)
 から参照できます。
 
+## 最新リリース
+
+最初の公開リリース `v0.1.0` の内容は、次の 2 ページで追えるようにしています。
+
+- [Release Notes v0.1.0](/guide/release-notes-v0.1.0)
+- [What's New in v0.1.0](/guide/whats-new-v0.1.0)
+
 ## ドキュメント導線
 
 - [はじめに](/ja/guide/getting-started)

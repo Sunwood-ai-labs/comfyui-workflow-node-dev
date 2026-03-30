@@ -41,6 +41,19 @@ a public repository for native LTX custom nodes for long-audio workflows in Comf
 Its published docs are also available at
 [sunwood-ai-labs.github.io/ComfyUI-LTXLongAudio](https://sunwood-ai-labs.github.io/ComfyUI-LTXLongAudio/).
 
+## Latest Release
+
+`v0.1.0` is the initial public release of this repository. It publishes the bilingual docs
+surface, GitHub Pages delivery, workflow layout smoke checking, and the practical
+ComfyUI-LTXLongAudio case study in one versioned release.
+
+- Release notes:
+  [v0.1.0 release notes](https://sunwood-ai-labs.github.io/comfyui-workflow-node-dev/guide/release-notes-v0.1.0)
+- Walkthrough:
+  [What's new in v0.1.0](https://sunwood-ai-labs.github.io/comfyui-workflow-node-dev/guide/whats-new-v0.1.0)
+- GitHub releases:
+  [Releases page](https://github.com/Sunwood-ai-labs/comfyui-workflow-node-dev/releases)
+
 ## Quick Start
 
 1. Identify the active layer before editing anything:

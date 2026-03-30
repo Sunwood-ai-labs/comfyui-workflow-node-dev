@@ -42,6 +42,13 @@ a public ComfyUI repository for native LTX custom nodes aimed at long-audio work
 Its published docs are available at
 [sunwood-ai-labs.github.io/ComfyUI-LTXLongAudio](https://sunwood-ai-labs.github.io/ComfyUI-LTXLongAudio/).
 
+## Latest Release
+
+The first public release is now documented in the site as a versioned pair:
+
+- [Release Notes v0.1.0](/guide/release-notes-v0.1.0)
+- [What's New in v0.1.0](/guide/whats-new-v0.1.0)
+
 ## Documentation Paths
 
 - [Getting Started](/guide/getting-started)
