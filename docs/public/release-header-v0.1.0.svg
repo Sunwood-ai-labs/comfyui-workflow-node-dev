@@ -9,8 +9,8 @@
   <circle cx="142" cy="180" r="22" fill="#22D3EE"/>
   <circle cx="220" cy="248" r="22" fill="#14B8A6"/>
   <circle cx="142" cy="316" r="22" fill="#F59E0B"/>
-  <rect x="770" y="112" width="228" height="56" rx="18" fill="#0F766E"/>
-  <text x="806" y="149" fill="#F8FAFC" font-size="30" font-weight="700" font-family="Segoe UI, Noto Sans, Arial, sans-serif">
+  <rect x="770" y="112" width="270" height="56" rx="18" fill="#0F766E"/>
+  <text x="905" y="149" text-anchor="middle" fill="#F8FAFC" font-size="30" font-weight="700" font-family="Segoe UI, Noto Sans, Arial, sans-serif">
     Release v0.1.0
   </text>
   <text x="458" y="214" fill="#F8FAFC" font-size="58" font-weight="700" font-family="Segoe UI, Noto Sans, Arial, sans-serif">
