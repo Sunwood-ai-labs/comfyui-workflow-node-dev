@@ -25,16 +25,16 @@
   <text x="458" y="396" fill="#CBD5E1" font-size="28" font-weight="400" font-family="Segoe UI, Noto Sans, Arial, sans-serif">
     uv-friendly validation, and a real ComfyUI case study.
   </text>
-  <rect x="458" y="450" width="220" height="52" rx="16" fill="#1D4ED8"/>
-  <text x="488" y="484" fill="#F8FAFC" font-size="26" font-weight="600" font-family="Segoe UI, Noto Sans, Arial, sans-serif">
+  <rect x="458" y="450" width="286" height="52" rx="16" fill="#1D4ED8"/>
+  <text x="601" y="484" text-anchor="middle" fill="#F8FAFC" font-size="26" font-weight="600" font-family="Segoe UI, Noto Sans, Arial, sans-serif">
     English + Japanese
   </text>
-  <rect x="700" y="450" width="188" height="52" rx="16" fill="#0F766E"/>
-  <text x="752" y="484" fill="#F8FAFC" font-size="26" font-weight="600" font-family="Segoe UI, Noto Sans, Arial, sans-serif">
+  <rect x="766" y="450" width="250" height="52" rx="16" fill="#0F766E"/>
+  <text x="891" y="484" text-anchor="middle" fill="#F8FAFC" font-size="26" font-weight="600" font-family="Segoe UI, Noto Sans, Arial, sans-serif">
     GitHub Pages
   </text>
-  <rect x="910" y="450" width="118" height="52" rx="16" fill="#F59E0B"/>
-  <text x="943" y="484" fill="#0B1220" font-size="26" font-weight="700" font-family="Segoe UI, Noto Sans, Arial, sans-serif">
+  <rect x="1038" y="450" width="118" height="52" rx="16" fill="#F59E0B"/>
+  <text x="1097" y="484" text-anchor="middle" fill="#0B1220" font-size="26" font-weight="700" font-family="Segoe UI, Noto Sans, Arial, sans-serif">
     uv run
   </text>
 </svg>
