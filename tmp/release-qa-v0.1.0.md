@@ -7,7 +7,7 @@
 - compare range: `initial release from root commit e353be0c000bccc142d2ecefccadd775762e03bb to HEAD 9eb5a0d6f1d50ef5bc2caeb8e9f4545392e170a3`
 - requested outputs: `GitHub release body, docs-backed release notes, companion walkthrough article`
 - validation commands run: `npm install`, `npm run docs:build`, `uv run python scripts/check_workflow_layout.py --workflow tmp/release-smoke-workflow.json`, `powershell -ExecutionPolicy Bypass -File D:\Prj\gh-release-notes-skill\scripts\verify-svg-assets.ps1 -RepoPath . -Path docs/public/logo.svg,docs/public/release-header-v0.1.0.svg`
-- release URLs: `pending pre-publish validation update`
+- release URLs: `https://github.com/Sunwood-ai-labs/comfyui-workflow-node-dev/releases/tag/v0.1.0`, `https://sunwood-ai-labs.github.io/comfyui-workflow-node-dev/guide/release-notes-v0.1.0`, `https://sunwood-ai-labs.github.io/comfyui-workflow-node-dev/guide/whats-new-v0.1.0`
 
 ## Claim Matrix
 
@@ -40,15 +40,15 @@
 | claim_scope_precise | pass | Initial-release wording is scoped to the full shipped history and explicitly avoids claiming bundled runtime artifacts that are not present |
 | latest_release_links_updated | pass | Added latest-release pointers in `README.md`, `README.ja.md`, `docs/index.md`, `docs/ja/index.md`, and `docs/.vitepress/config.ts` |
 | svg_assets_validated | pass | `powershell -ExecutionPolicy Bypass -File D:\Prj\gh-release-notes-skill\scripts\verify-svg-assets.ps1 -RepoPath . -Path docs/public/logo.svg,docs/public/release-header-v0.1.0.svg` |
-| docs_assets_committed_before_tag | not_applicable | Pre-publish draft inventory; will be updated to pass after the release collateral commit is created and before the tag is pushed |
-| docs_deployed_live | not_applicable | Pre-publish draft inventory; will be updated after the docs collateral commit is pushed and the Pages URLs are verified live |
-| tag_local_remote | not_applicable | Pre-publish draft inventory; `v0.1.0` has not been created yet |
-| github_release_verified | not_applicable | Pre-publish draft inventory; the GitHub release does not exist yet |
+| docs_assets_committed_before_tag | pass | Release collateral was committed in `458e8d4c8b6bc6c362bdfe11d59f417c166e0e48` before `git tag -a v0.1.0 -m \"v0.1.0\"` and `git push origin v0.1.0` |
+| docs_deployed_live | pass | Deploy Docs run `23747142831` succeeded and `https://sunwood-ai-labs.github.io/comfyui-workflow-node-dev/guide/release-notes-v0.1.0`, `https://sunwood-ai-labs.github.io/comfyui-workflow-node-dev/guide/whats-new-v0.1.0`, and `https://sunwood-ai-labs.github.io/comfyui-workflow-node-dev/release-header-v0.1.0.png` returned `200` |
+| tag_local_remote | pass | Local annotated tag `v0.1.0` exists and `git ls-remote --tags origin v0.1.0*` confirmed remote tag object `9fe2a6992035fc5536e36aded7880c6f94250b44` plus peeled commit `458e8d4c8b6bc6c362bdfe11d59f417c166e0e48` |
+| github_release_verified | pass | `gh release view v0.1.0 --repo Sunwood-ai-labs/comfyui-workflow-node-dev --json url,name,tagName,isDraft,isPrerelease,publishedAt,body` confirmed `isDraft=false`, `isPrerelease=false`, and the live release URL |
 | validation_commands_recorded | pass | Recorded in Release Context and repeated in claim matrix and validation evidence rows |
-| publish_date_verified | not_applicable | Pre-publish draft inventory; the release publish timestamp does not exist yet |
+| publish_date_verified | pass | `gh release view v0.1.0 --repo Sunwood-ai-labs/comfyui-workflow-node-dev --json publishedAt` returned `2026-03-30T13:28:38Z` |
 
 ## Notes
 
 - blockers:
 - waivers:
-- follow-up docs tasks: update this inventory with live Pages and release verification evidence after publication
+- follow-up docs tasks:
