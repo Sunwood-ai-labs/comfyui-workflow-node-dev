@@ -33,6 +33,14 @@ The repository packages:
   [`references/`](./references/)
 - bilingual VitePress docs for browsing the same guidance as a site
 
+## Example Repository
+
+A practical example already delivered with this workflow is
+[ComfyUI-LTXLongAudio](https://github.com/Sunwood-ai-labs/ComfyUI-LTXLongAudio),
+a public repository for native LTX custom nodes for long-audio workflows in ComfyUI.
+Its published docs are also available at
+[sunwood-ai-labs.github.io/ComfyUI-LTXLongAudio](https://sunwood-ai-labs.github.io/ComfyUI-LTXLongAudio/).
+
 ## Quick Start
 
 1. Identify the active layer before editing anything:

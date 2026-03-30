@@ -34,6 +34,15 @@ features:
 Codex が迷わないようにするための skill です。workflow JSON、App mode metadata、
 backend schema、runtime execution を分断せず扱えるようにします。
 
+## 実例
+
+この運用で実際に公開まで進められた事例として
+[ComfyUI-LTXLongAudio](https://github.com/Sunwood-ai-labs/ComfyUI-LTXLongAudio)
+があります。これは long-audio workflow 向けの native LTX custom nodes を提供する
+ComfyUI リポジトリで、公開 docs は
+[sunwood-ai-labs.github.io/ComfyUI-LTXLongAudio](https://sunwood-ai-labs.github.io/ComfyUI-LTXLongAudio/)
+から参照できます。
+
 ## ドキュメント導線
 
 - [はじめに](/ja/guide/getting-started)

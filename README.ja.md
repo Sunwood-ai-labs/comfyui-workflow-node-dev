@@ -33,6 +33,15 @@ App mode メタデータ、バックエンド schema、実行証跡をつなげ�
 - 設計・App mode・検証運用の参照資料: [`references/`](./references/)
 - 同じ内容を見やすく参照できる日英 VitePress docs
 
+## 実例リポジトリ
+
+この運用で実際に形にできた事例として
+[ComfyUI-LTXLongAudio](https://github.com/Sunwood-ai-labs/ComfyUI-LTXLongAudio)
+があります。これは ComfyUI 向けの long-audio workflow を支える native LTX custom
+nodes をまとめた公開リポジトリで、公開 docs は
+[sunwood-ai-labs.github.io/ComfyUI-LTXLongAudio](https://sunwood-ai-labs.github.io/ComfyUI-LTXLongAudio/)
+で確認できます。
+
 ## クイックスタート
 
 1. まず対象レイヤーを切り分けます。

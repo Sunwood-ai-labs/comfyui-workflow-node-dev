@@ -34,6 +34,14 @@ features:
 one layer at once. Instead of treating workflow JSON, App mode metadata, backend schema,
 and runtime execution as separate concerns, the skill keeps them connected.
 
+## Example In Practice
+
+This workflow has already been used to ship
+[ComfyUI-LTXLongAudio](https://github.com/Sunwood-ai-labs/ComfyUI-LTXLongAudio),
+a public ComfyUI repository for native LTX custom nodes aimed at long-audio workflows.
+Its published docs are available at
+[sunwood-ai-labs.github.io/ComfyUI-LTXLongAudio](https://sunwood-ai-labs.github.io/ComfyUI-LTXLongAudio/).
+
 ## Documentation Paths
 
 - [Getting Started](/guide/getting-started)
