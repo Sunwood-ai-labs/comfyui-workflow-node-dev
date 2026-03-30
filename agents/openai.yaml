@@ -1,0 +1,4 @@
+interface:
+  display_name: "ComfyUI Workflow Dev"
+  short_description: "Build ComfyUI workflows, App mode, and custom nodes."
+  default_prompt: "Use $comfyui-workflow-node-dev to extend or debug this ComfyUI workflow or custom node, then validate schema, App mode, and /prompt execution."

@@ -1,0 +1,35 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" rx="40" fill="#0F172A"/>
+  <rect x="44" y="44" width="1112" height="542" rx="28" fill="#111827"/>
+  <rect x="84" y="92" width="312" height="312" rx="48" fill="#0B1220"/>
+  <path d="M148 180L220 244L152 310" stroke="#22D3EE" stroke-width="28" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M212 176H318" stroke="#F59E0B" stroke-width="24" stroke-linecap="round"/>
+  <path d="M244 244H334" stroke="#14B8A6" stroke-width="24" stroke-linecap="round"/>
+  <path d="M208 312H312" stroke="#E2E8F0" stroke-width="24" stroke-linecap="round"/>
+  <circle cx="142" cy="176" r="22" fill="#22D3EE"/>
+  <circle cx="220" cy="244" r="22" fill="#14B8A6"/>
+  <circle cx="142" cy="312" r="22" fill="#F59E0B"/>
+  <rect x="770" y="120" width="180" height="22" rx="11" fill="#22D3EE" fill-opacity="0.75"/>
+  <rect x="770" y="164" width="238" height="22" rx="11" fill="#14B8A6" fill-opacity="0.75"/>
+  <rect x="770" y="208" width="152" height="22" rx="11" fill="#F59E0B" fill-opacity="0.75"/>
+  <text x="458" y="206" fill="#F8FAFC" font-size="58" font-weight="700" font-family="Segoe UI, Noto Sans, Arial, sans-serif">
+    ComfyUI Workflow
+  </text>
+  <text x="458" y="274" fill="#F8FAFC" font-size="58" font-weight="700" font-family="Segoe UI, Noto Sans, Arial, sans-serif">
+    Node Dev
+  </text>
+  <text x="458" y="350" fill="#CBD5E1" font-size="28" font-weight="400" font-family="Segoe UI, Noto Sans, Arial, sans-serif">
+    Codex skill for workflow JSON, custom nodes, App mode metadata,
+  </text>
+  <text x="458" y="392" fill="#CBD5E1" font-size="28" font-weight="400" font-family="Segoe UI, Noto Sans, Arial, sans-serif">
+    schema validation, and /prompt-backed runtime debugging.
+  </text>
+  <rect x="458" y="450" width="220" height="52" rx="16" fill="#0F766E"/>
+  <text x="488" y="484" fill="#F8FAFC" font-size="26" font-weight="600" font-family="Segoe UI, Noto Sans, Arial, sans-serif">
+    English + Japanese
+  </text>
+  <rect x="700" y="450" width="182" height="52" rx="16" fill="#1D4ED8"/>
+  <text x="742" y="484" fill="#F8FAFC" font-size="26" font-weight="600" font-family="Segoe UI, Noto Sans, Arial, sans-serif">
+    VitePress
+  </text>
+</svg>

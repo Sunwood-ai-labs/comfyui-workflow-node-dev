@@ -1,0 +1,41 @@
+:root {
+  --vp-c-brand-1: #0f766e;
+  --vp-c-brand-2: #0d9488;
+  --vp-c-brand-3: #14b8a6;
+  --vp-c-brand-soft: rgba(20, 184, 166, 0.14);
+  --vp-home-hero-name-color: #e2e8f0;
+  --vp-home-hero-image-background-image:
+    radial-gradient(circle at 30% 30%, rgba(34, 211, 238, 0.28), transparent 42%),
+    radial-gradient(circle at 72% 68%, rgba(245, 158, 11, 0.24), transparent 38%);
+  --vp-home-hero-image-filter: drop-shadow(0 22px 48px rgba(15, 23, 42, 0.28));
+}
+
+.VPButton:focus-visible,
+.VPLink:focus-visible,
+.VPNavBarMenuLink:focus-visible,
+a:focus-visible {
+  outline: 3px solid rgba(34, 211, 238, 0.75);
+  outline-offset: 3px;
+  border-radius: 10px;
+}
+
+.VPFeature {
+  border: 1px solid rgba(148, 163, 184, 0.18);
+  transition:
+    border-color 0.2s ease,
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.VPFeature:hover,
+.VPFeature:focus-within {
+  border-color: rgba(20, 184, 166, 0.42);
+  box-shadow: 0 18px 36px rgba(15, 23, 42, 0.12);
+  transform: translateY(-2px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .VPFeature {
+    transition: none;
+  }
+}
